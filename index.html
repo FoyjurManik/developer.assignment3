@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Assignment3</title>
+    <!-- daisy ui link -->
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!--manrope google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/3f5d36c6df.js" crossorigin="anonymous"></script>
+<!-- tailwind custom color -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+<style>
+.font-manrope{
+    font-family: 'Manrope', sans-serif;
+}
+</style>
+
+</head>
+<body class="font-manrope">
+    <div class="bg-base-100 p-4">
+    <header class="container mx-auto">
+       <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a class="text-[#FF4240]">Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="navbar-center">
+              <a class="btn btn-ghost text-xl">Hockey<span class="text-[#FF4240]">'</span>s</a>
+            </div>
+            <div class="navbar-end">
+              <button class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+              </button>
+              <button class="btn rounded-lg bg-[#FF4240] text-white text-l ">
+               <h2>Get Ticket</h2>
+              </button>
+            </div>
+          </div>
+
+          <!-- banner part -->
+          <div class="my-10">
+            <div class="carouse1 w-full">
+                <div id="slide1" class="carouse1-item relative w-full">
+                    <img src="Images/1.png" class="w-full" alt="">
+                    <div class=" p-8 bg-black rounded-lg absolute -mt-48  ">
+                        <h1 class="text-2xl text-white font-extrabold">Meet all the heroes from the field</h1>
+                        <p class="text-gray text-white ">As a National League hockey club with exposure across 12 <br>counties in England,
+                         there's a lot to be gained by sponsoring us. </p>
+                    </div>
+                    <div class="absolute flex absolute -mt-24 ml-10 ">
+                    <a href="#slide4" class="btn btn-circle bg-black text-white font-extrabold"><</a>
+                    <a href="#slide2" class="btn btn-circle bg-black text-white font-extrabold ">></a>
+
+                </div>
+                </div>
+            </div>
+          </div>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
